@@ -1,0 +1,14 @@
+spring:
+  data:
+    redis:
+      database: 1
+      host: redis #${REDIS_HOST:localhost}
+      port: 6379
+      ttl: 10000
+      #database: 1
+      #host: redis-19847.c322.us-east-1-2.ec2.cloud.redislabs.com
+      #password: djNkfKfpjOlwzvONuvKN00lKmv0133Di
+      #port: 19847
+  cache:
+    ttl: 30
+    promise-ttl: 60
