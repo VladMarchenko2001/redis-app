@@ -1,0 +1,9 @@
+*.iml
+.idea
+target
+client
+client-docs
+
+src/main/resources/swagger.json
+.metals
+.vscode
